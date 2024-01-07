@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digilabs/static/css/main.31084c87.css",
+    "main.js": "/digilabs/static/js/main.f8781dd8.js",
+    "index.html": "/digilabs/index.html",
+    "main.31084c87.css.map": "/digilabs/static/css/main.31084c87.css.map",
+    "main.f8781dd8.js.map": "/digilabs/static/js/main.f8781dd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31084c87.css",
+    "static/js/main.f8781dd8.js"
+  ]
+}
