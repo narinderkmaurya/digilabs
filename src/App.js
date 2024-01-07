@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Desktop from "./components/Desktop";
+import Tablet from "./components/Tablet";
+import Mobile from "./components/Mobile";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="lg:block md:hidden sm:hidden hidden">
+        <Desktop />
+      </div>
+      <div className="md:block sm:hidden lg:hidden hidden">
+        <Tablet />
+      </div>
+      <div className="sm:hidden md:hidden lg:hidden">
+        <Mobile />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
